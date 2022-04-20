@@ -1,0 +1,47 @@
+.container{
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+body{
+    background: black;
+}
+h2{
+    color: white;
+}
+h1{
+    color: white;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+button{
+    cursor: cell;
+    display: flex;
+    top: 1000px;
+}
+button hover{
+   transition: 0.7s;
+}
