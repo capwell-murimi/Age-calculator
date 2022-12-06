@@ -1,8 +1,8 @@
 //challenge 1: Age in days
 
 function ageInDays(){
-var birthYear = prompt('what year were you born in.....Good friend')
-var ageInDayss = (2022-birthYear) * 365;
+var birthYear = prompt('this will calculate your age good friend...')
+var ageInDayss = (2022-birthYear);
 var h1 = document.createElement('h1');
 var textAnswer = document.createTextNode(' You are ' + ageInDayss + ' days old ')
 h1.setAttribute('id', 'ageInDays');
